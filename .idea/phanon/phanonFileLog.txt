@@ -1,0 +1,8 @@
+/.idea/.gitignore
+/main.html
+/venv/script.js
+/venv/RTO.html
+/RTO.html
+/venv/P1.html
+/P1.html
+/script.js

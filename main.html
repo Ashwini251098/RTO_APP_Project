@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RTP App</title>
+</head>
+<body>
+<!-- <script src="script.js"></script> -->
+<h1 title="Click_here">Register for a new vehicle</h1>
+<h2>Click here to register
+   <!-- <button id="regButton" onclick="getForm()">Register</button> -->
+</h2>
+
+<label>Age</label>
+<input type="number" name="age"> <br> <br>
+<label>Model Name</label>
+<input type="text" name="mname"> <br> <br>
+<label>Model Year</label>
+<input type="number" name="myear"> <br> <br>
+<label>Manufactured Date</label>
+<input type="date" name="mdate"> <br> <br>
+
+
+    <h2>Registration Form</h2>
+    <form method="post" onsubmit="submit()">
+        <label>Owner's Name </label>
+        <input type="text" name="Ownersname"><br><br>
+        <!-- <label>Date of Birth <input type="date" name="dob"></label><br><br>
+        <label>Model Name <input type="text" name="modelName"></label><br><br>
+        <label>Model Year <input type="number" name="modelYear"></label><br><br>
+        <label>Manufactured by <input type="text" name="manufacturedYear"></label><br><br>
+        <label>Manufactured date <input type="date" name="manufacturedDate"></label><br><br> -->
+        <button type="submit" onclick="submit()">Submit</button>
+    </form>
+
+
+<!--
+<div>
+<h2> Click here to delete your registered vehicle</h2>
+<form id="deleteform">
+    <label>Enter your registered vehicle number<input type="text"></label><br>
+    <button type="submit">Submit</button><br></form>
+
+</div>  -->
+</body>
+<script>
+    function submit(sub){
+    alert("Form Submitted successfully");
+    }
+</script>
+</html>
